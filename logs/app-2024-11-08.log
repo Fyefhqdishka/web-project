@@ -1,0 +1,58 @@
+time=2024-11-08T19:04:16.464+05:00 level=ERROR msg="Ошибка подключения к базе данных" error="sql: unknown driver \"postgres\" (forgotten import?)"
+time=2024-11-08T20:22:01.072+05:00 level=DEBUG msg=Register !BADKEY="начала обработки регистрации пользователя"
+time=2024-11-08T20:22:17.937+05:00 level=DEBUG msg=Register !BADKEY="начала обработки регистрации пользователя"
+time=2024-11-08T21:07:14.217+05:00 level=DEBUG msg=Register !BADKEY="начала обработки регистрации пользователя"
+time=2024-11-08T21:07:14.561+05:00 level=ERROR msg=RegistrationUser "error executing statement"=err: !BADKEY="sql: expected 6 arguments, got 3"
+time=2024-11-08T21:07:14.561+05:00 level=ERROR msg=Register "ошибка при сохранении пользователя в репозитории"=err !BADKEY="sql: expected 6 arguments, got 3"
+time=2024-11-08T21:14:59.174+05:00 level=DEBUG msg=Register !BADKEY="начала обработки регистрации пользователя"
+time=2024-11-08T21:14:59.549+05:00 level=ERROR msg=RegistrationUser "error executing statement"=err: !BADKEY="sql: expected 4 arguments, got 3"
+time=2024-11-08T21:14:59.550+05:00 level=ERROR msg=Register "ошибка при сохранении пользователя в репозитории"=err !BADKEY="sql: expected 4 arguments, got 3"
+time=2024-11-08T21:16:29.656+05:00 level=DEBUG msg=Register !BADKEY="начала обработки регистрации пользователя"
+time=2024-11-08T21:16:30.055+05:00 level=DEBUG msg=RegistrationUser "registration user finished"=username !BADKEY=asasdasd
+time=2024-11-08T21:16:30.055+05:00 level=DEBUG msg=Register "User successfully registered"=username !BADKEY=asasdasd
+time=2024-11-08T21:30:27.607+05:00 level=INFO msg=login !BADKEY="начало обработки Авторизации"
+time=2024-11-08T21:30:27.608+05:00 level=DEBUG msg=Login "Перед вызовом LoginUser"=username !BADKEY=csdv
+time=2024-11-08T21:30:27.608+05:00 level=DEBUG msg=LoginUser !BADKEY="starting login user"
+time=2024-11-08T21:30:27.881+05:00 level=WARN msg=LoginUser "пользователь не найден"=username !BADKEY=csdv
+time=2024-11-08T21:30:27.881+05:00 level=ERROR msg=Login "ошибка при аутентификации пользователя"=username csdv=error !BADKEY="пользователь не найден"
+time=2024-11-08T21:30:55.561+05:00 level=DEBUG msg=Register !BADKEY="начала обработки регистрации пользователя"
+time=2024-11-08T21:30:55.752+05:00 level=DEBUG msg=RegistrationUser "registration user finished"=username !BADKEY=fyefhq
+time=2024-11-08T21:30:55.753+05:00 level=DEBUG msg=Register "User successfully registered"=username !BADKEY=fyefhq
+time=2024-11-08T21:31:06.941+05:00 level=INFO msg=login !BADKEY="начало обработки Авторизации"
+time=2024-11-08T21:31:06.941+05:00 level=DEBUG msg=Login "Перед вызовом LoginUser"=username !BADKEY=fyefhq
+time=2024-11-08T21:31:06.941+05:00 level=DEBUG msg=LoginUser !BADKEY="starting login user"
+time=2024-11-08T21:31:07.115+05:00 level=INFO msg="пользователь успешно аутентифицирован" username=fyefhq
+time=2024-11-08T21:31:07.115+05:00 level=INFO msg=Login "Пользователь успешно аутентифицирован"=username !BADKEY=fyefhq
+time=2024-11-08T21:35:39.794+05:00 level=INFO msg=login !BADKEY="начало обработки Авторизации"
+time=2024-11-08T21:35:39.794+05:00 level=DEBUG msg=Login "Перед вызовом LoginUser"=username !BADKEY=fyefhq
+time=2024-11-08T21:35:39.794+05:00 level=DEBUG msg=LoginUser !BADKEY="starting login user"
+time=2024-11-08T21:35:40.192+05:00 level=INFO msg="пользователь успешно аутентифицирован" username=fyefhq
+time=2024-11-08T21:35:40.193+05:00 level=INFO msg=Login "Пользователь успешно аутентифицирован"=username !BADKEY=fyefhq
+time=2024-11-08T21:35:52.906+05:00 level=INFO msg=login !BADKEY="начало обработки Авторизации"
+time=2024-11-08T21:35:52.906+05:00 level=DEBUG msg=Login "Перед вызовом LoginUser"=username !BADKEY=fyefhq
+time=2024-11-08T21:35:52.906+05:00 level=DEBUG msg=LoginUser !BADKEY="starting login user"
+time=2024-11-08T21:35:53.008+05:00 level=WARN msg=LoginUser "неверный пароль для пользователя"=username !BADKEY=fyefhq
+time=2024-11-08T21:35:53.008+05:00 level=ERROR msg=Login "ошибка при аутентификации пользователя"=username fyefhq=error !BADKEY="неверный пароль"
+time=2024-11-08T21:36:17.833+05:00 level=INFO msg=login !BADKEY="начало обработки Авторизации"
+time=2024-11-08T21:36:17.833+05:00 level=DEBUG msg=Login "Перед вызовом LoginUser"=username !BADKEY=fyefhq
+time=2024-11-08T21:36:17.833+05:00 level=DEBUG msg=LoginUser !BADKEY="starting login user"
+time=2024-11-08T21:36:17.988+05:00 level=WARN msg=LoginUser "неверный пароль для пользователя"=username !BADKEY=fyefhq
+time=2024-11-08T21:36:17.989+05:00 level=ERROR msg=Login "ошибка при аутентификации пользователя"=username fyefhq=error !BADKEY="неверный пароль"
+time=2024-11-08T21:36:27.969+05:00 level=INFO msg=login !BADKEY="начало обработки Авторизации"
+time=2024-11-08T21:36:27.969+05:00 level=DEBUG msg=Login "Перед вызовом LoginUser"=username !BADKEY=fyefhq
+time=2024-11-08T21:36:27.969+05:00 level=DEBUG msg=LoginUser !BADKEY="starting login user"
+time=2024-11-08T21:36:28.122+05:00 level=WARN msg=LoginUser "неверный пароль для пользователя"=username !BADKEY=fyefhq
+time=2024-11-08T21:36:28.122+05:00 level=ERROR msg=Login "ошибка при аутентификации пользователя"=username fyefhq=error !BADKEY="неверный пароль"
+time=2024-11-08T21:36:31.987+05:00 level=INFO msg=login !BADKEY="начало обработки Авторизации"
+time=2024-11-08T21:36:31.987+05:00 level=DEBUG msg=Login "Перед вызовом LoginUser"=username !BADKEY=fyefhq
+time=2024-11-08T21:36:31.987+05:00 level=DEBUG msg=LoginUser !BADKEY="starting login user"
+time=2024-11-08T21:36:32.143+05:00 level=WARN msg=LoginUser "неверный пароль для пользователя"=username !BADKEY=fyefhq
+time=2024-11-08T21:36:32.143+05:00 level=ERROR msg=Login "ошибка при аутентификации пользователя"=username fyefhq=error !BADKEY="неверный пароль"
+time=2024-11-08T21:36:59.194+05:00 level=DEBUG msg=Register !BADKEY="начала обработки регистрации пользователя"
+time=2024-11-08T21:36:59.377+05:00 level=DEBUG msg=RegistrationUser "registration user finished"=username !BADKEY=qweqwe
+time=2024-11-08T21:36:59.378+05:00 level=DEBUG msg=Register "User successfully registered"=username !BADKEY=qweqwe
+time=2024-11-08T21:37:10.307+05:00 level=INFO msg=login !BADKEY="начало обработки Авторизации"
+time=2024-11-08T21:37:10.307+05:00 level=DEBUG msg=Login "Перед вызовом LoginUser"=username !BADKEY=qweqwe
+time=2024-11-08T21:37:10.307+05:00 level=DEBUG msg=LoginUser !BADKEY="starting login user"
+time=2024-11-08T21:37:10.477+05:00 level=INFO msg="пользователь успешно аутентифицирован" username=qweqwe
+time=2024-11-08T21:37:10.479+05:00 level=INFO msg=Login "Пользователь успешно аутентифицирован"=username !BADKEY=qweqwe
